@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+output/*
+!output/.gitkeep
+.pytest_cache/
+.hypothesis/
+data/intel_lab/data.txt
+tla/states/
+tla/*_TTrace_*
