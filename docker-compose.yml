@@ -1,0 +1,8 @@
+services:
+  naaa:
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./output:/app/output      # every run creates output/test<N> on the host
